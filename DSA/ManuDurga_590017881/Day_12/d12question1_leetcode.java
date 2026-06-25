@@ -1,6 +1,6 @@
 package Day_12;
     import java.util.*;
-    public class d12question_leetcode {
+    public class d12question1_leetcode {
     public static int linecount = 0;
 
     public static int Lines(int[] width, String S) {

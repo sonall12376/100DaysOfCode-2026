@@ -1,7 +1,7 @@
 package Day_26;
 
 import java.util.*;
-public class d25question1_leetcode {
+public class d26question1_leetcode {
     
 
     public static void sortColors(int[] nums) {
@@ -12,7 +12,7 @@ public class d25question1_leetcode {
             else if(nums[i]==1){cpy.add(nums[i]);}
             else if(nums[i]==2){count2++;}
         }
-        for(int i=0;i<nums.length;i++){
+        for(int i=0;i<count2;i++){
             cpy.add(2);
 
         }
